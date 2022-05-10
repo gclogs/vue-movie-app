@@ -1,6 +1,6 @@
-# Vue3 템플릿 with Webpack
+# Vue3 템플릿 with Webpack & fastcampus 클론코딩
+# neitfy host : https://frabjous-scone-b32879.netlify.app
 
-# fastcampus 클론코딩
 
 ## Versions
 

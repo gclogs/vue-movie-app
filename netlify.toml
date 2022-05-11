@@ -1,0 +1,16 @@
+
+# 제품 모드
+[build]
+    command = "npm run build"
+    functions = "functions"     # Netlify 서버리스 함수가 작성된 디렉토리를 지정합니다.
+    publish = "dist"            # 프로젝트 빌드 결과의 디렉토리를 지정합니다.
+
+
+# 개발 모드
+[dev]
+    framework = "#custom"       # 감지할 프로젝트 유형을 지정합니다. 앱 서버 및 `targetPort` 옵션을 실행하는 명령 옵션은
+    command = "npm run dev"     # 
+    targetPort = 8080
+    port = 8888
+    publish = "dist"
+    autoLaunch = false

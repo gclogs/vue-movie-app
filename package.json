@@ -11,7 +11,8 @@
     "dev": "webpack-dev-server --mode development",
     "dev:netlify": "netlify dev",
     "build": "webpack --mode production",
-    "test:unit": "jest --watchAll"
+    "test:unit": "jest",
+    "test:unit:silent": "jest --watchAll --silent"
   },
   "keywords": [],
   "author": "",
